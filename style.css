@@ -1,0 +1,32 @@
+
+h1{
+  font-size: medium;
+}
+
+.editorBorder{
+  outline: none;
+  border-style:solid;
+  border-color:rgb(255, 0, 0);
+
+}
+
+
+/* [contenteditable="true"]:focus {
+outline: none;
+} */
+
+/* [contenteditable="true"]:focus > div {
+  border-style: dashed;
+  border-color: rgb(0, 0, 0);
+  border-width: medium;
+  background-color: rgb(227, 12, 211);
+} */
+
+.lines {
+  padding: 4px 0; /* Vertical padding around content */
+  font-size: 150%;
+}
+
+.lines div {
+  padding: 0 4px; /* Horizontal padding of content */
+}
